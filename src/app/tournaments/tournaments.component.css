@@ -17,8 +17,8 @@
   color: white;
   background-color: #1c1d1e;
   padding-bottom: 1rem;
-  margin-bottom: 5rem;
   position: relative;
+  border-color: #2C3234;
 }
 
 .tournaments-title {
@@ -26,9 +26,9 @@
   padding: 1.6rem 0;
   text-align: center;
   border-radius: 16px;
+  border-color: #2C3234;
   position: relative;
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 .tournaments-title::before {
   position: absolute;
@@ -43,6 +43,11 @@
   box-shadow: 0 0 25px #ef5a21;
 }
 
+.tournaments-info {
+  width: 100%;
+  background: #171718;
+    border-radius: 16px;
+}
 .btn,
 .btn-primary {
   font-size: 0.938rem;
@@ -59,83 +64,26 @@
   flex-direction: column;
   align-items: center;
 }
+.tournaments-innerbody p {
+  font-family: 'November-Medium';
+}
+
 
 .tournaments-innerbody-time {
-  display: flex;
-  align-items: center;
   padding-right: 0.5rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0 !important;
 }
 
-
-
-
-/* .tournaments-title{
-  background: #2C3234;
-  padding: 1.6rem 0;
+.tournaments-additional-info {
   text-align: center;
-  border-radius: 16px;
-  position: relative;
-  width: 100%;
-border-radius: 16px;
+  color: rgb(203, 203, 203)
 }
+.tournaments-additional-info p {
+  font-family: 'November-Medium';
+}
+
 
 .tournaments-title h5 {
   color: white;
   text-align: center;
-
 }
-.tournaments-title::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 125px;
-  height: 4px;
-  background-color: #EF5A21;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  box-shadow: 0 0 25px #EF5A21;
-}
-.tournament-innerbody {
-  background-color: #1C1D1E;
-}
-
-.tournaments-innerbody-text{
-  color: white;
-  text-align: center;
-  font-family: 'November-Medium';
-}
-
-.tournaments-innerbody-text p {
-  color: white;
-  font-family: 'November-Regular';
-}
-
-
-.tournaments-innerbody-time {
-  border-radius: 2rem;
-  border-color: #EF5A21;
-  border: 2rem;
-}
-.tournaments-innerbody-time img {
-  border-radius: 2rem;
-  width: 2rem;
-
-}
-
-.tournaments-scores-info{
-  background: #25292B;
-  border-radius: 16px;
-}
-
-
-
-
-
-.clock {
-    box-shadow: 1px 1px 10px #ef5a21;
-}
-
- */
