@@ -12,12 +12,10 @@ margin-top: 24px;
 
 .mystical-key-title {
   color: #8b4513;
- background-color: #2C3234;
   text-align: center;
   font-size: 2.25rem;
   line-height: 2.5rem;
   padding-top: 0.5rem;
-padding-bottom: 0.5rem;
 border-radius: 0.75rem;
 }
 .mystical-key-container {
@@ -26,7 +24,6 @@ border-radius: 0.75rem;
   margin: auto;
   border-bottom-right-radius: 0.5rem;
 border-bottom-left-radius: 0.5rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
   width: 91.6%;
 }
