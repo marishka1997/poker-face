@@ -1,0 +1,15 @@
+<div class="mystical-key-first-container">
+<h4 class="mystical-key-title">მისტიური გასაღები</h4>
+  <div class="mystical-key-container">
+      <p class="mystical-key-text">მოთამაშეები გარკვეული საპრიზო ადგილების დაკავების შემთხვევაში მიიღებენ საიდუმლო გასაღებს</p>
+      <div class="leaderboard">
+          <div class="leaderboard-container ">
+              <div *ngFor="let i of position"
+                  class="position-cell">
+                  <span class="position-index">{{i}}</span>
+                  <p class="position-row">{{ranking[i-1]}}</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

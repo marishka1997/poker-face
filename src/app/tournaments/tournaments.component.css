@@ -1,0 +1,141 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+.tournaments-container {
+  margin-top: 2rem;
+  color: white;
+  background-color: #1c1d1e;
+  padding-bottom: 1rem;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.tournaments-title {
+  background: #2c3234;
+  padding: 1.6rem 0;
+  text-align: center;
+  border-radius: 16px;
+  position: relative;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.tournaments-title::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  height: 4px;
+  background-color: #ef5a21;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 25px #ef5a21;
+}
+
+.btn,
+.btn-primary {
+  font-size: 0.938rem;
+}
+
+.btn-primary {
+  background: #ef602a;
+  border: none;
+}
+
+.tournaments-innerbody {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tournaments-innerbody-time {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+
+
+
+/* .tournaments-title{
+  background: #2C3234;
+  padding: 1.6rem 0;
+  text-align: center;
+  border-radius: 16px;
+  position: relative;
+  width: 100%;
+border-radius: 16px;
+}
+
+.tournaments-title h5 {
+  color: white;
+  text-align: center;
+
+}
+.tournaments-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px;
+  height: 4px;
+  background-color: #EF5A21;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 0 25px #EF5A21;
+}
+.tournament-innerbody {
+  background-color: #1C1D1E;
+}
+
+.tournaments-innerbody-text{
+  color: white;
+  text-align: center;
+  font-family: 'November-Medium';
+}
+
+.tournaments-innerbody-text p {
+  color: white;
+  font-family: 'November-Regular';
+}
+
+
+.tournaments-innerbody-time {
+  border-radius: 2rem;
+  border-color: #EF5A21;
+  border: 2rem;
+}
+.tournaments-innerbody-time img {
+  border-radius: 2rem;
+  width: 2rem;
+
+}
+
+.tournaments-scores-info{
+  background: #25292B;
+  border-radius: 16px;
+}
+
+
+
+
+
+.clock {
+    box-shadow: 1px 1px 10px #ef5a21;
+}
+
+ */

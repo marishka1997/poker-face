@@ -1,0 +1,109 @@
+.mystical-key-first-container {
+background-color:  #25292B;
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 0.75rem;
+border-color: #25292B;
+padding-bottom: 1rem;
+margin-bottom: 10px;
+margin-top: 24px;
+}
+
+.mystical-key-title {
+  color: #8b4513;
+ background-color: #2C3234;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+border-radius: 0.75rem;
+}
+.mystical-key-container {
+  background-color: #171718;
+  border-radius: 0.75rem;
+  margin: auto;
+  border-bottom-right-radius: 0.5rem;
+border-bottom-left-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 91.6%;
+}
+
+.mystical-key-text {
+  color: #FFF;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 91.6%;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.leaderboard {
+  width: 95%;
+  display: flex;
+  margin: auto;
+  background-color: #25292B;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+  height: 45vh;
+}
+
+.leaderboard-container {
+  width: 95%;
+  overflow: auto;
+}
+
+.position-cell {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin:auto;
+  border-width: 2px;
+  border-color: #25292B;
+  margin-bottom: 0.655rem;
+  background-color: #171718;
+  border-radius: 9999px;
+  padding: 0.5rem;
+}
+
+.position-index {
+  color: #fff;
+  background-color: #25292B;
+  margin-right: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+line-height: 1rem;
+border-radius: 14px;
+}
+
+.position-row {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #44494b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ef5a21;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f89067;
+}

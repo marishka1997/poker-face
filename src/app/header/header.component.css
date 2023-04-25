@@ -1,0 +1,76 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+.header-first-container,
+.header-third-container {
+  padding: 0px 16px;
+}
+
+.header-second-container {
+  height: 200px;
+  object-fit: cover;
+  margin-top: 11px;
+}
+
+.header-third-container {
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.third-container-main-text {
+  gap: 8px;
+}
+.third-container-main-text span {
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: #25292b;
+  align-self: center;
+  font-family: "November-Medium";
+}
+
+.third-container-main-text p {
+  font-size: 0.875rem;
+  font-family: "November-Bold";
+}
+
+.third-container-secondary-text p {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "November-Bold";
+}
+
+.third-container-minor-text p {
+  font-size: 0.875rem;
+  font-family: "November-Regular";
+}
+
+.logo {
+  width: 23.72px;
+  height: 24px;
+}
+
+.btn {
+  color: white;
+}
+
+.btn,
+.btn-primary {
+  font-size: 0.938rem;
+}
+
+.btn-primary {
+  background: #ef602a;
+  border: none;
+}

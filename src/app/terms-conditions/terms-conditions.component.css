@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+
+.terms-container{
+  display: grid;
+  gap: 5px;
+  padding: 20px 16px;
+}
+
+
+.terms-container h5 {
+  font-size: 16px;
+  font-family: 'November-Medium';
+  color: #FFF;
+}
+
+.accordion-button, .accordion-header, .accordion-item{
+  background: #25292B;
+  color: #BBBBBB;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.accordion-btn::after {
+  font-size: 40px;
+}
+
+
+.accordion-btn.collapsed::after {
+  filter: invert(50%);
+}
+
+
+.accordion-btn:not(.collapsed)::after {
+  filter: invert(50%);
+}

@@ -1,0 +1,1249 @@
+.eb-font-roman {
+  font-family: "Helvetica-Roman" !important;
+}
+.eb-font-medium {
+  font-family: "Helvetica-Medium" !important;
+}
+.eb-font-bold {
+  font-family: "Helvetica-Bold" !important;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-fluid:before,
+.container-fluid:after {
+  content: " ";
+  display: table;
+}
+.container-fluid:after {
+  clear: both;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.col-xs-4,
+.col-xs-6,
+.col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.col-xs-4,
+.col-xs-6,
+.col-xs-12 {
+  float: left;
+}
+.col-xs-4 {
+  width: 33.33333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-12 {
+  width: 100%;
+}
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+.text-uppercase {
+  text-transform: uppercase;
+  -moz-font-feature-settings: "case";
+  -webkit-font-feature-settings: "case";
+  font-feature-settings: "case" on;
+}
+.text-font12 {
+  font-size: 12px;
+}
+.text-font13 {
+  font-size: 13px;
+}
+.text-font14 {
+  font-size: 14px;
+}
+.text-font15 {
+  font-size: 15px;
+}
+.text-font16 {
+  font-size: 16px;
+}
+.text-font18 {
+  font-size: 18px;
+}
+.text-font22 {
+  font-size: 22px;
+}
+.text-font24 {
+  font-size: 24px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none !important;
+}
+/*! CSS Used from: https://promotions.europebet.com/s3/pokerlegendsmalta/css/app.7bae8ee1.css */
+.text-uppercase {
+  text-transform: uppercase;
+  font-feature-settings: "case" on;
+}
+.text-font12 {
+  font-size: 12px;
+}
+.text-font14 {
+  font-size: 14px;
+}
+.text-font16 {
+  font-size: 16px;
+}
+.text-font18 {
+  font-size: 18px;
+}
+.text-font22 {
+  font-size: 22px;
+}
+.text-font24 {
+  font-size: 24px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+a {
+  text-decoration: none !important;
+}
+.tabs-content1 .open-leaderboard-btn {
+  margin-bottom: 10px;
+}
+.tabs-content1 .open-leaderboard-btn {
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.txt-orange {
+  color: #ef5a21;
+}
+.txt-gold {
+  color: #ffbe00;
+}
+@media only screen and (min-width: 768px) {
+  .md-px-30 {
+    padding-left: 43px;
+    padding-right: 43px;
+  }
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mt-12 {
+  margin-top: 12px;
+}
+.titles-outer {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 12px 0 12px 0;
+}
+.titles-outer .voucher {
+  margin-right: 5px;
+}
+.titles-outer :first-child {
+  text-align: left;
+}
+.titles-outer div:last-of-type {
+  text-align: center;
+}
+.titles-outer.right {
+  padding: 12px 25px 12px 0;
+}
+@media only screen and (max-width: 768px) {
+  .titles-outer {
+    font-size: 12px;
+  }
+  .titles-outer :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.tabs-content {
+  position: relative;
+  padding: 32px 0;
+}
+.tabs-content.tabs-content1 .promo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #171718;
+  border-radius: 16px;
+  position: relative;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoDesc {
+  padding: 24px;
+  background-color: #2c3234;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoDesc .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 50%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+  background-color: #f05a22;
+  box-shadow: 0 0 10px #f05a22;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoDesc {
+    width: 100%;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoDesc .line {
+    max-width: 125px;
+    height: 4px;
+    top: 0;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoDesc .desc-text {
+    font-size: 16px;
+  }
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  border-bottom: 4px solid #25292b;
+  border-left: 4px solid #25292b;
+  border-right: 4px solid #25292b;
+  border-radius: 0 0 16px 16px;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .mob {
+  display: none;
+  margin: 0 auto;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .desc {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent {
+    border: none;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent .mob {
+    display: block !important;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent .desc {
+    display: none !important;
+  }
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .isHead {
+  width: 100%;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .bg-mob {
+  width: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-image: unset;
+  background-repeat: unset;
+  background-position: unset;
+  background-size: unset;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .bg-mob .isDesc2 {
+  margin-top: 20px;
+}
+.tabs-content.tabs-content1
+  .promo-wrapper
+  .isPromoContent
+  .bg-mob
+  .tournament-time {
+  width: 200px;
+  margin: 0 auto;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .bg-mob .lobi-link {
+  margin: 0 auto;
+  max-width: 158px;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1
+    .promo-wrapper
+    .isPromoContent
+    .bg-mob
+    .lobi-link {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .isDesc {
+  margin-top: 0;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .lobi-link {
+  font-size: 15px;
+  background-color: #f05a22;
+  padding: 6px 21px 7px 21px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 140px;
+  text-align: center;
+  z-index: 999;
+  display: inline-block;
+}
+.tabs-content.tabs-content1 .promo-wrapper .isPromoContent .lobi-link:hover {
+  background-color: #ee4c1e;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent {
+    padding: 15px 15px 15px 15px;
+  }
+}
+.tabs-content.tabs-content1 .promo-wrapper .isAssets {
+  position: absolute;
+  bottom: -15px;
+  transform: translateY(0);
+}
+.tabs-content.tabs-content1 .promo-wrapper .isAssets.isAssetsTab {
+  display: inline-block;
+  bottom: -15px;
+  transform: translateY(0);
+}
+.tabs-content.tabs-content1 .promo-wrapper .isAssets.isAssetsTab.left-img {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .promo-wrapper {
+    background-color: #2c3234;
+    border: 0 none;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent {
+    padding: 0;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent .isHead {
+    position: relative;
+    background-color: #171718;
+    padding: 0 14px 40px 14px;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding-top: 14px;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent .isDesc {
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+  .tabs-content.tabs-content1 .promo-wrapper .isPromoContent .isDesc2 {
+    margin-bottom: 15px;
+    margin-top: 11px;
+  }
+}
+.tabs-content.tabs-content1 .leaderboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #171718;
+  border: 4px solid #25292b;
+  border-top: none;
+  border-radius: 16px;
+  padding-bottom: 24px;
+  z-index: 9;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .leaderboard-wrapper {
+    background-color: unset;
+    border: none;
+    padding-bottom: 0;
+  }
+}
+.tabs-content.tabs-content1 .isLeaderDescBox {
+  padding: 24px;
+  background-color: #2c3234;
+  width: calc(100% + 8px);
+  color: #fff;
+  text-align: center;
+  position: relative;
+  border-radius: 16px 16px 0 0;
+  z-index: 9;
+}
+.tabs-content.tabs-content1 .isLeaderDescBox.desc-bottom {
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.tabs-content.tabs-content1 .isLeaderDescBox .line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  width: 50%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5px;
+  background-color: #f05a22;
+  box-shadow: 0 0 10px #f05a22;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .isLeaderDescBox {
+    width: 100%;
+  }
+  .tabs-content.tabs-content1 .isLeaderDescBox .line {
+    max-width: 125px;
+    height: 4px;
+    top: 0;
+  }
+  .tabs-content.tabs-content1 .isLeaderDescBox .desc-text {
+    font-size: 16px;
+  }
+}
+.tabs-content.tabs-content1 .isTableBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  padding: 0 24px 0 24px;
+}
+.tabs-content.tabs-content1 .isTableBox .prizes-container {
+  background-color: #25292b;
+  border-radius: 16px;
+  padding: 20px 24px;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .isTableBox .prizes-container {
+    border-radius: 0 0 12px 12px;
+    padding: 0 14px 20px 14px;
+  }
+}
+.tabs-content.tabs-content1 .isTableBox .isCenter {
+  flex: 1;
+  background-color: #25292b;
+  padding: 24px 32px;
+  border-radius: 12px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.tabs-content.tabs-content1 .isTableBox .isCenter .isBody .table-items {
+  display: flex;
+  flex-direction: column;
+}
+.tabs-content.tabs-content1 .isTableBox .isCenter .isBody .table-items.right {
+  padding-right: 30px;
+  overflow: hidden;
+  overflow-anchor: none;
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 357px;
+  transition: height 0.35s linear;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .isTableBox .isCenter .isBody .table-items.right {
+    overflow-y: hidden;
+  }
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items.right::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #f05a22;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items.right::-webkit-scrollbar-track {
+  background-color: hsla(0, 0%, 100%, 0.05);
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items.right::scrollbar-track {
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items.right::-webkit-scrollbar {
+  width: 4px !important;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .isTableBox .isCenter .isBody .table-items.right {
+    padding-right: 0;
+    height: 291px;
+    overflow: hidden;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items.right::-webkit-scrollbar {
+    width: 0 !important;
+  }
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item {
+  background-color: #1e2122;
+  border: 2px solid #2c3234;
+  border-radius: 76px;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 5px;
+  margin-bottom: 4px;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item
+  p {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item
+  .table-item-place {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  min-width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #2c3234;
+  box-shadow: 0 0 5px #2c3234;
+  padding-left: 0;
+  padding-right: 0;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item
+  .table-place {
+  padding-left: 0;
+  padding-right: 0;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item
+  .table-item-text {
+  flex: 1;
+  text-align: center;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: center;
+  display: flex;
+}
+.tabs-content.tabs-content1
+  .isTableBox
+  .isCenter
+  .isBody
+  .table-items
+  .table-item
+  .table-item-text
+  img {
+  height: 14px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item {
+    min-height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-place {
+    font-size: 10px;
+    width: 32px;
+    height: 32px;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-text {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-text
+    p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item {
+    min-height: 45px;
+    padding-left: 10px;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-place {
+    font-size: 8px;
+    width: 30px;
+    height: 30px;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-text {
+    font-size: 9px;
+  }
+  .tabs-content.tabs-content1
+    .isTableBox
+    .isCenter
+    .isBody
+    .table-items
+    .table-item
+    .table-item-text
+    p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .isTableBox {
+    padding: 0 0 0 0;
+  }
+  .tabs-content.tabs-content1 .isTableBox .isCenter {
+    padding: 15px 12px 16px 12px;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
+.tabs-content.tabs-content1 .footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
+.tabs-content.tabs-content1 .footer.mob {
+  display: none;
+  text-align: center;
+}
+.tabs-content.tabs-content1 .footer.desc {
+  display: block;
+}
+.tabs-content.tabs-content1 .footer a.footer-link {
+  text-decoration: underline !important;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .footer {
+    text-align: left;
+  }
+  .tabs-content.tabs-content1 .footer.mob {
+    display: block;
+  }
+  .tabs-content.tabs-content1 .footer.desc {
+    display: none;
+  }
+}
+.tabs-content.tabs-content1 .prize-wrapper {
+  background-color: #202324;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  border-radius: 12px;
+}
+.tabs-content.tabs-content1 .prize-wrapper .prize-img {
+  width: 37px;
+  height: 35px;
+  margin-right: 15px;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabs-content.tabs-content1 .prize-wrapper .prize-img .showImage {
+  display: block;
+}
+.tabs-content.tabs-content1 .prize-wrapper .prize-img .hideImage {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .prize-wrapper .prize-img .showImage {
+    display: none;
+  }
+  .tabs-content.tabs-content1 .prize-wrapper .prize-img .hideImage {
+    display: block;
+  }
+}
+.tabs-content.tabs-content1 .prize-wrapper .prize-img img {
+  max-width: 100%;
+  height: auto;
+}
+.tabs-content.tabs-content1 .prize-wrapper .prize-text {
+  width: calc(100% - 50px);
+}
+.tabs-content.tabs-content1 .prize-wrapper .line {
+  position: absolute;
+  height: 28px;
+  width: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background-color: #ef5a21;
+  box-shadow: 0 0 10px #ef5a21;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .prize-wrapper {
+    padding: 12px 12px;
+    background-color: #2c3234;
+  }
+  .tabs-content.tabs-content1 .prize-wrapper .prize-text p {
+    font-size: 12px;
+  }
+}
+.tabs-content.tabs-content1 .mechanic-scroller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .mechanic-scroller {
+    background-color: #25292b;
+  }
+}
+.tabs-content.tabs-content1 .mechanic-scroller .mechanic-inner {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2122;
+  border-radius: 76px;
+  border: 2px solid #2c3234;
+  min-height: 38px;
+  margin: 20px 0;
+}
+.tabs-content.tabs-content1 .mechanic-scroller .mechanic-inner p {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.tabs-content.tabs-content1 .mechanic-scroller .mechanic-inner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .mechanic-scroller .mechanic-inner {
+    margin: 20px 0 0 0;
+  }
+}
+.tabs-content.tabs-content1 .tournaments-wrapper {
+  width: 100%;
+  padding: 24px 16px;
+  background-color: #171718;
+  border: 4px solid #25292b;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .isHead {
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .tournaments {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(50% - 16px);
+  min-height: 104px;
+  margin: 8px;
+  padding-left: 26px;
+  padding-right: 55px;
+}
+@media screen and (min-width: 769px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    padding-right: calc(11.11111vw - 30.44444px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    padding-right: 74px;
+  }
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+  min-height: 85px;
+}
+@media screen and (min-width: 375px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    min-height: calc(4.83461vw + 66.87023px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    min-height: 104px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament
+  .isTitle {
+  color: #fff;
+  padding-right: 10px;
+  font-size: 14px;
+}
+@media screen and (min-width: 320px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isTitle {
+    font-size: calc(0.16129vw + 13.48387px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isTitle {
+    font-size: 15px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament
+  .isPrize {
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isPrize {
+    font-size: calc(0.64516vw + 17.93548px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isPrize {
+    font-size: 24px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament
+  .isBuyIn {
+  color: #fff;
+  font-size: 12px;
+}
+@media screen and (min-width: 320px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isBuyIn {
+    font-size: calc(0.16129vw + 11.48387px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isBuyIn {
+    font-size: 13px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament
+  .isDate {
+  background-color: #b78648;
+  padding: 5px 9px;
+  border-radius: 15px;
+  border-bottom-right-radius: 0;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 12px;
+}
+@media screen and (min-width: 320px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isDate {
+    font-size: calc(0.32258vw + 10.96774px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament
+    .isDate {
+    font-size: 14px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.holdem {
+  background: url(https://promotions.europebet.com/s3/pokerlegendsmalta/img/tournament-bg.2f4d8690.png)
+    no-repeat 50%;
+  background-size: 100% 100%;
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.omaha {
+  background: url(https://promotions.europebet.com/s3/pokerlegendsmalta/img/tournament-bg2.2f4d8690.png)
+    no-repeat 50%;
+  background-size: 100% 100%;
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament.main {
+  width: calc(100% - 16px);
+  justify-content: center;
+  background: url(https://promotions.europebet.com/s3/pokerlegendsmalta/img/main-bg.4e946c93.png)
+    no-repeat 50%;
+  background-size: 100% 100%;
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.main
+  .isLeft {
+  width: 50%;
+  text-align: right;
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.main
+  .isRight {
+  padding-left: 52px;
+  width: 50%;
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.main
+  .isTitle {
+  color: #fff;
+  padding-right: 10px;
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main
+    .isTitle {
+    font-size: calc(0.96774vw + 12.90323px);
+  }
+}
+@media screen and (min-width: 940px) {
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main
+    .isTitle {
+    font-size: 22px;
+  }
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.main
+  .isPrize {
+  padding-right: 15px;
+}
+.tabs-content.tabs-content1
+  .tournaments-wrapper
+  .tournaments
+  .tournament.main
+  .isDate {
+  background-color: #d7c860;
+  color: #2d5d53;
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    width: 60%;
+    padding-right: 81px;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.holdem,
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.omaha {
+    background: url(https://promotions.europebet.com/s3/pokerlegendsmalta/img/tournament-bg-m.ba423f60.png)
+      no-repeat 50%;
+    background-size: 100% 100%;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main {
+    background: url(https://promotions.europebet.com/s3/pokerlegendsmalta/img/main-bg-sm.2fadcb96.png)
+      no-repeat 50%;
+    background-size: 100% 100%;
+    width: 60%;
+    justify-content: space-between;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main
+    .isLeft {
+    width: auto;
+    text-align: left;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main
+    .isRight {
+    padding-left: 0;
+    width: auto;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main
+    .isPrize {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    width: 80%;
+    padding-left: 16px;
+  }
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament,
+  .tabs-content.tabs-content1
+    .tournaments-wrapper
+    .tournaments
+    .tournament.main {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    padding-right: 65px;
+  }
+}
+.tabs-content.tabs-content1 .tournaments-wrapper .isFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 730px;
+  margin: 15px auto 0;
+  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper {
+    padding: 0 0;
+    background-color: unset;
+    border: 0 none;
+  }
+  .tabs-content.tabs-content1 .tournaments-wrapper .isHead {
+    margin-bottom: 20px;
+  }
+  .tabs-content.tabs-content1 .tournaments-wrapper .tournaments .tournament {
+    margin: 0 0 16px 0;
+  }
+  .tabs-content.tabs-content1 .tournaments-wrapper .isFooter {
+    margin: 0 auto 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content.tabs-content1 .tournaments-wrapper .isHead {
+    font-size: 14px;
+  }
+  .tabs-content.tabs-content1 .tournaments-wrapper .isFooter {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabs-content {
+    padding: 16px 0 32px 0;
+  }
+}
+.txt-gray {
+  color: #7d7d7d;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Helvetica-Roman;
+  src: url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Regular.woff2")
+      format("woff2"),
+    url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Regular.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: Helvetica-Medium;
+  src: url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Medium.woff2")
+      format("woff2"),
+    url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Medium.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Bold.woff2")
+      format("woff2"),
+    url("https://cf.europebet.com/promotions/EBCommon/Fonts/nov/NovemberGeLC-Bold.ttf")
+      format("truetype");
+}

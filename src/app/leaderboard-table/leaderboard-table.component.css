@@ -1,0 +1,101 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+.leaderboard-table-container{
+  margin-top: 21px;
+  padding: 0 8px 0 13px;
+}
+
+
+.leaderboard-table-topic-row, .leaderboard-table-inner-cell{
+  white-space: nowrap;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  margin-left: -52px;
+}
+
+
+.leaderboard-table-topic{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 12px;
+  color: #7D7D7D;
+  margin-bottom: 13px;
+  width: 98%;
+}
+
+.voucher-icon{
+  width: 20px;
+  height: 15px;
+  margin-right: 4px;
+}
+
+
+
+.leaderboard-table-inner{
+  height: 290px;
+  overflow-y: scroll;
+  display: grid;
+  gap: 4px;
+  font-family: 'November-Regular';
+}
+
+
+
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #EF5A21;
+  border-radius: 5px;
+}
+
+
+.leaderboard-table-inner-row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid #2C3234;
+  border-radius: 10px;
+  font-size: 10px;
+  color: white;
+  border-radius: 76px;
+  height: 45px;
+  background: #1E2122;
+  width: 98%;
+  align-items: flex-start;
+}
+
+
+.leaderboard-table-inner-cell:nth-child(1){
+  padding: 5px 10px;
+  background: #2C3234;
+  border-radius: 100%;
+}
+
+
+
+.leaderboard-table-inner-cell-new-line{
+  display: block;
+}
+
+
+.leaderboard-table-inner-cell-icon{
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}

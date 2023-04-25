@@ -1,0 +1,26 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+
+.leaderboard-results-container{
+  padding: 17px 20px 23px 20px;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'November-Bold';
+}
+
+
+.leaderboard-results-new-line{
+  color: #EF5A21;
+}

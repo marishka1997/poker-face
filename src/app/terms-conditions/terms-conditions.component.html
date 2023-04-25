@@ -1,0 +1,27 @@
+<div class="terms-container" ngbAccordion [closeOthers]="true">
+  <h5>წესები და პირობები</h5>
+	<div class="accordion-item" ngbAccordionItem *ngFor="let term of terms">
+		<h2 class="accordion-header" ngbAccordionHeader>
+			<button class="accordion-btn" ngbAccordionButton>{{ term }}</button>
+		</h2>
+		<div ngbAccordionCollapse class="accordion-collapse">
+			<div ngbAccordionBody class="accordion-innerbody">
+				<ng-template>
+          <ul>
+             აქცია დაიწყება 1 აპრილს 00:00 საათზე და დასრულდება 30 აპრილს 23:59 საათზე.
+            <li>აქცია ჩატარდება სამ ეტაპად:</li>
+            <li>Cash Game - 1 აპრილიდან 29 აპრილის ჩათვლით.</li>
+            <li>Spring Series - 13 აპრილიდან 29 აპრილის ჩათვლით.</li>
+            <li>Final Stage – 30 აპრილი.</li>
+            </ul>
+            <ul>
+            კამპანიის ფარგლებში, თამაშდება სხადასხვა კატეგორიის The Festival in Malta-ს საგზურები:
+            <li>A კატეგორიის საგზური მოიცავს: The Festival in Malta-ს მეინ ივენთის ბაი-ინს და Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინს, 500 ევრო ქეში, ორმხრივი ავიაბილეთები, სასტუმრო.</li>
+            <li>B კატეგორიის საგზური მოიცავს The Festival in Malta-ს მეინ ივენთის ბაი-ინს და 550 ევრო Tournamet Money, 500 ევრო ქეში, ორმხრივი ავიაბილეთები, სასტუმრო.
+            <li>C კატეგორიის საგზური მოიცავს The Festival in Malta-ს მეინ ივენთის ბაი-ინს, 500 ევრო ქეში, ორმხრივი ავიაბილეთები, სასტუმრო.</li>
+            </ul>
+				</ng-template>
+			</div>
+		</div>
+	</div>
+</div>

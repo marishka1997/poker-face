@@ -1,0 +1,21 @@
+<div class="leaderboard-table-container">
+<div class="leaderboard-table-topic">
+<span class="leaderboard-table-topic-row">ადგილი</span>
+<span class="leaderboard-table-topic-row">
+  <img class="voucher-icon" src="../../assets/voucher.png" alt="voucher icon">ვაუჩერი
+</span>
+<span class="leaderboard-table-topic-row">პრიზი</span>
+</div>
+<div class="leaderboard-table-inner">
+  <div *ngFor="let prize of prizes; index as i" class="leaderboard-table-inner-row">
+    <span class="leaderboard-table-inner-cell">{{prize.cell1 + i}}</span>
+    <span class="leaderboard-table-inner-cell">{{prize.cell2}}</span>
+    <span class="leaderboard-table-inner-cell">
+      <img *ngIf="(prize.cell1 + i) === 1" class="leaderboard-table-inner-cell-icon" src="../../assets/travel.png" alt="plane icon">
+      <img *ngIf="(prize.cell1 + i) === 2" class="leaderboard-table-inner-cell-icon" src="../../assets/ticket.png" alt="ticket icon">
+      {{prize.cell3}}
+      <span class="leaderboard-table-inner-cell-new-line">{{prize.cell3NewLine}}</span>
+    </span>
+  </div>
+</div>
+</div>
