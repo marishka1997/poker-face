@@ -13,7 +13,6 @@ Project was implemented for company ***Europebet***.
 - Bootstrap
 - TypeScript
 - RxJS
-- Angular Material
 - Ngx-Owl-Carousel-O
 
 
