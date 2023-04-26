@@ -1,27 +1,26 @@
-# PokerFace
+# Poker Legends Malta
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+## Description 
+
+This provided project leads to the promotions responsive web-page of **Europebet**, an online betting and gaming website. In particular, the promotion marked on the page is called *"Poker Legends"* and is a tournament-style competition for avid poker players. The website itself is visually appealing and well-organized, making it easy for players to navigate and find information about the promotion.
+
+Project was implemented for company ***Europebet***.
+
+## Tech Stack
+- HTML
+- CSS 
+- Angular 15
+- Bootstrap
+- TypeScript
+- RxJS
+- Angular Material
+- Ngx-Owl-Carousel-O
+
 
 ## Development server
+Run `npm install` for installation and then `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project was generated with Angular CLI version 15.2.1.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### [Demo](https://xd.adobe.com/view/88d2293c-7c1c-468b-b69f-6021652ed1c7-dd81/grid)
+### [Live Server](https://xd.adobe.com/view/88d2293c-7c1c-468b-b69f-6021652ed1c7-dd81/grid)
