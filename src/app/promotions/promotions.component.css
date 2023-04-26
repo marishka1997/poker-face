@@ -1,12 +1,27 @@
- .promotions-container {
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+.promotions-container {
   padding: 20px 16px;
-  display: grid;
+  display: block;
   gap: 6px;
  }
 
 .promotions-container h5 {
   font-size: 16px;
   margin-bottom: 1.5rem !important;
+  font-family: 'November-Medium';
 }
 
 .carousel-container {

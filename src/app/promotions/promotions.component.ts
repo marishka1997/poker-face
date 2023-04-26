@@ -10,26 +10,26 @@ export class PromotionsComponent {
     {
       id: '1',
       src:'../../assets/promo1.PNG',
-      alt:'Side 1',
-      title:'Side 1'
+      alt:'slide 1',
+      title:'slide 1'
     },
     {
       id: '2',
       src:'../../assets/promo2.PNG',
-      alt:'Side 2',
-      title:'Side 2'
+      alt:'slide 2',
+      title:'slide 2'
     },
     {
       id: '3',
       src:'../../assets/promo3.PNG',
-      alt:'Side 3',
-      title:'Side 3'
+      alt:'slide 3',
+      title:'slide 3'
     },
     {
       id: '4',
       src:'../../assets/promo1.PNG',
-      alt:'Side 4',
-      title:'Side 4'
+      alt:'slide 4',
+      title:'slide 4'
     },
   ]
 

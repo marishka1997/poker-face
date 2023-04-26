@@ -90,6 +90,10 @@ border-bottom-left-radius: 0.75rem;
   padding-left: 0;
 }
 
+.list-div li {
+  font-family: 'November-Regular';
+}
+
 .list-div img {
   margin-right: 0.75rem;
 }

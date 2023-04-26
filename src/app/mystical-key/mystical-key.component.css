@@ -1,3 +1,18 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
+
 .mystical-key-first-container {
 background-color: #25292B;
 display: flex;
@@ -38,6 +53,7 @@ border-bottom-left-radius: 0.5rem;
   font-size: 14px;
   text-align: center;
   padding-left: 15px;
+  font-family: 'November-Medium';
 }
 
 .leaderboard {
@@ -81,12 +97,14 @@ border-bottom-left-radius: 0.5rem;
   height: 1.75rem;
 line-height: 1rem;
 border-radius: 14px;
+font-family: 'November-Medium';
 }
 
 .position-row {
   color: white;
   font-size: 14px;
   text-align: center;
+  font-family: 'November-Medium';
 }
 ::-webkit-scrollbar {
   width: 5px;

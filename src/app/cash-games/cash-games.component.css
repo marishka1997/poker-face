@@ -54,8 +54,9 @@
   margin-top: 15px;
 }
 
-.cash-games-text h5 {
+.cash-games-text h6 {
   font-size: 13px;
+  font-family: 'November-Medium';
 }
 
 .cash-games-text img {

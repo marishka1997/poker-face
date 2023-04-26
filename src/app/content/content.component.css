@@ -1,3 +1,17 @@
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
+}
+
 .content-container{
   margin-top: 26px;
   padding: 0 16px;
@@ -24,14 +38,22 @@
 }
 
 
+.nav-title{
+  font-size: 0.625rem;
+  font-family: 'November-Medium';
+}
+
+
 .nav-date{
   font-size: 0.625rem;
+  font-family: 'November-Regular';
 }
 
 
 .nav-date, .nav-title{
   color: white !important;
   white-space: nowrap;
+
 }
 
 

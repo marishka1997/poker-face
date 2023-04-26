@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
@@ -52,8 +52,9 @@ import { MysticalKeyComponent } from './mystical-key/mystical-key.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule, 
-    CarouselModule
+    NgbModule,
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

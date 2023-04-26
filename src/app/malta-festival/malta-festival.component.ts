@@ -9,25 +9,25 @@ export class MaltaFestivalComponent {
   categories = [
     [
       'A',
-      'ომხრივი ავიაბილეთი',
+      'ორმხრივი ავიაბილეთი',
       'The Festival in Malta-ს მეინ ივენთის ბაი-ინი',
       'Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინი',
-      'სასტუმრო Golden Tulip Vivaldi hotel',
+      'სასტუმრო Golden Tulip Vivaldi Hotel',
       '€500 სახარჯი ფული',
     ],
     [
       'B',
-      'ომხრივი ავიაბილეთი',
+      'ორმხრივი ავიაბილეთი',
       'The Festival in Malta-ს მეინ ივენთის ბაი-ინი',
       'Holdem ან Omaha ჰაიროლერ ტურნირის ბაი-ინი',
-      'სასტუმრო Golden Tulip Vivaldi hotel',
+      'სასტუმრო Golden Tulip Vivaldi Hotel',
       '€500 სახარჯი ფული',
     ],
   ];
 
   thirdcategory = [
     'C',
-    'ომხრივი ავიაბილეთი',
+    'ორმხრივი ავიაბილეთი',
     'The Festival in Malta-ს მეინ ივენთის ბაი-ინი',
     'სასტუმრო',
     '€500 სახარჯი ფული',
