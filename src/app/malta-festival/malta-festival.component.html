@@ -1,51 +1,48 @@
-<div class="malta-festival-container d-flex flex-col p-5 mb-5">
-  <div class="malta-festival-info">
-    <img class="malta-festival-info img d-flex flex-col" src="../../assets/final-info-img.jpg" alt="Final Stage Image">
-  <p class="text-white text-lg-center my-3">გაემგზავრე THE FESTIVAL IN MALTA-ზე!</p>
-  <p class="text-white text-sm-center">THE FESTIVAL სერიების ფარგლებში, ევროპაბეთი უკვე მეორედ აძლევს პოკერი მოთამაშეებს დაუვიწყარი მოგზაურობის შანსს</p>
+<div class="malta-festival-container bg-darkGray border-4 border-middleGray d-flex flex-column justify-content-center rounded-2xl p-5 mb-5">
+  <img class="banner-festival" src="../../assets/final-info-img.jpg" alt="Final Stage Image">
+  <p class="text-white text-center">გაემგზავრე THE FESTIVAL IN MALTA-ზე!</p>
+  <p class="text-white text-center">THE FESTIVAL სერიების ფარგლებში, ევროპაბეთი უკვე მეორედ აძლევს პოკერის მოთამაშეებს დაუვიწყარი მოგზაურობის შანსს</p>
+  <div class="prizes-container">
+      <div class="flex items-center rounded-xl m-auto pr-5">
+          <p class="text-white text-sm">15-დან 21 მაისის ჩათვლით მალტა პოკერის ფესტივალს უმასპინძლებს</p>
+      </div>
   </div>
-  <div class="prizes-info m-auto py-3 my-5">
-      <div class="prizes-info-inner d-flex align-items-center m-auto pr-5">
-      <span class="text-white text-sm">15-დან 21 მაისის ჩათვლით მალტა პოკერის ფესტიალს უმასპინძლებს</span>
-  </div>
-  </div>
-  <div class="malta-festival-tables d-flex justify-content-between">
-      <div *ngFor="let prize of categoryPrizes" class="malta-festival-innertablesprize">
-          <div class="top-line"></div>
-          <p class="list-header d-flex align-items-center text-white text-xs p-3">{{ prize[0] }} კატეგორიის საგზურში შედის</p>
-          <div class="list-div bg-middleGray">
+  <div class="prizes-caregory-tables d-flex justify-content-between">
+      <div *ngFor="let prize of categories" class="category-block prize">
+          <div class="top-divider"></div>
+          <p class="list-header d-flex align-items-center">{{ prize[0] }} კატეგორიის საგზურში შედის</p>
+          <div class="list-div">
               <ul>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
+                  <li class="prize-item"><img
                           src="{{icons[3]}}" alt="">{{ prize[1] }}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
+                  <li class="prize-item"><img
                           src="{{icons[1]}}" alt="">{{ prize[2] }}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
+                  <li class="prize-item"><img
                           src="{{icons[1]}}" alt="">{{ prize[3] }}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
+                  <li class="prize-item"><img
                           src="{{icons[2]}}" alt="">{{ prize[4] }}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
+                  <li class="prize-item"><img
                           src="{{icons[4]}}" alt="">{{ prize[5] }}</li>
               </ul>
           </div>
       </div>
-      <div class="rounded-xl prize bg-lightGray">
+      <div class="category-block prize">
           <div class="top-divider"></div>
-          <p class="list-header flex items-center text-white text-xs p-3">{{categoryC[0]}} კატეგორიის საგზურში შედის
+          <p class="list-header d-flex align-items-center">{{thirdcategory[0]}} კატეგორიის საგზურში შედის
           </p>
-          <div class="list-div bg-middleGray rounded-b-xl">
+          <div class="list-div">
               <ul>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
-                          src="{{icons[3]}}" alt=""> {{categoryC[1]}} </li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
-                          src="{{icons[1]}}" alt=""> {{categoryC[2]}}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
-                          src="{{icons[2]}}" alt=""> {{categoryC[3]}}</li>
-                  <li class="prize-item rounded-xl text-white text-xs bg-darkGray mb-2"><img class="mr-3"
-                          src="{{icons[4]}}" alt=""> {{categoryC[4]}}</li>
+                  <li class="prize-item"><img
+                          src="{{icons[3]}}" alt=""> {{thirdcategory[1]}} </li>
+                  <li class="prize-item"><img
+                          src="{{icons[1]}}" alt=""> {{thirdcategory[2]}}</li>
+                  <li class="prize-item"><img
+                          src="{{icons[2]}}" alt=""> {{thirdcategory[3]}}</li>
+                  <li class="prize-item"><img
+                          src="{{icons[4]}}" alt=""> {{thirdcategory[4]}}</li>
 
               </ul>
           </div>
       </div>
-
   </div>
 </div>

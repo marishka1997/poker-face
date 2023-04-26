@@ -1,19 +1,51 @@
-.malta-festival-container {
-  background-color: #171718;
-  border: 4px #25292B;
-  border-radius: 1rem;
+@font-face {
+  font-family: November-Bold;
+  src: url("../../assets/fonts/November-Bold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: November-Medium;
+  src: url("../../assets/fonts/November-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: November-Regular;
+  src: url("../../assets/fonts/November-Regular.woff2") format("truetype");
 }
 
 
+.malta-festival-container {
+  background-color:#171718;
+  border: 4px solid #25292B;
+  border-radius: 16px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-top: 39px;
+}
 
-.prizes-info-inner{
+.banner-festival {
+  border-radius: 16px;
+}
+
+.malta-festival-container p {
+  font-family: 'November-Bold';
+  font-size: 14px;
+  margin-top: 15px;
+  margin-right: 0.625rem;
+}
+
+
+.prizes-container {
   background: #2C3234;
   border-radius: 14px;
-  padding: 14px 16px;
-  gap: 8px;
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
   position: relative;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
-.prizes-info-inner::before {
+
+.prizes-container::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -27,19 +59,18 @@
   box-shadow: 0 0 10px #EF5A21;
 }
 
-
-.prizes-info
-.prizes-info-inner {
-background-color: #25292B;
-border-radius: 0.75rem;
-}
-
-.malta-festival-innertables {
-  border-radius: 1rem;
+.category-block {
+  border-radius: 16px;
   background-color: #2C3234;
 }
+
 .list-header {
   height: 8vh;
+  font-size: 0.75rem;
+line-height: 1rem;
+color: white;
+padding: 0.75rem;
+text-align: center;
 }
 
 .prize {
@@ -52,7 +83,15 @@ border-radius: 0.75rem;
   padding: 8px;
   background-color: #25292B;
   border-bottom-right-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
+border-bottom-left-radius: 0.75rem;
+}
+
+.list-div ul {
+  padding-left: 0;
+}
+
+.list-div img {
+  margin-right: 0.75rem;
 }
 
 .prize-item {
@@ -60,15 +99,20 @@ border-radius: 0.75rem;
   align-items: center;
   height: 8vh;
   padding: 5px;
+  border-radius: 0.75rem;
+  color: white;
+  font-size: 0.75rem;
+line-height: 1rem;
+margin-bottom: 0.5rem;
+background-color: #1C1D1E;
 }
 
-.top-line {
+.top-divider {
     width: 40%;
     height: 4px;
     background-color: #ef5a21;
     margin: auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    box-shadow: 0 1px 10px 1px #ef5a21;
-
+    box-shadow: 0 1px 10px 5px #ef5a21;
 }

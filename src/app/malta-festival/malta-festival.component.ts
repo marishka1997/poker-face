@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./malta-festival.component.css']
 })
 export class MaltaFestivalComponent {
-  categoryPrizes = [
+  categories = [
     [
       'A',
       'ომხრივი ავიაბილეთი',
@@ -25,7 +25,7 @@ export class MaltaFestivalComponent {
     ],
   ];
 
-  categoryC = [
+  thirdcategory = [
     'C',
     'ომხრივი ავიაბილეთი',
     'The Festival in Malta-ს მეინ ივენთის ბაი-ინი',
@@ -34,10 +34,10 @@ export class MaltaFestivalComponent {
   ];
 
   icons = [
-    '../../assets/icons/final-item-event-icon.png',
-    '../../assets/icons/final-item-event-icon.png',
-    '../../assets/icons/final-item-hotel-icon.png',
-    '../../assets/icons/final-item-ticket-icon.png',
-    '../../assets/icons/final-item-money-icon.png',
+    '../../assets/final-item-event-icon.png',
+    '../../assets/final-item-event-icon.png',
+    '../../assets/final-item-hotel-icon.png',
+    '../../assets/final-item-ticket-icon.png',
+    '../../assets/final-item-money-icon.png',
   ];
 }
